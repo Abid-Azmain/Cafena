@@ -1,0 +1,31 @@
+@media (min-width:768px){
+    .nav-links{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        gap: 20px;
+        justify-content: flex-end;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .nav-links a{
+        padding: 5px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .buttons{
+        display: none;
+    }
+    header{
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+        gap: 10px;
+    }
+    .btn{
+        margin: 0;
+    }
+    
+}

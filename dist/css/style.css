@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Regular.ttf');
+}
+:root{
+    --theme-color: rgb(255, 179, 191);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+p{
+    color: rgb(194, 194, 194);
+}
+body{
+    background-color: black;
+    padding-bottom: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 5px 0px 5px 0px;
+    position: fixed;
+    width: 100%;
+}
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top:70px;
+    transition-duration: .1s;
+    
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+}
+.nav-links a:hover{
+    border-bottom: 1px solid white;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 30px;
+}
+.logo{
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.fa-bars{
+    cursor: pointer;
+}
+header{
+    min-height: 100vh;
+    background-image: url('../../images/home-img.jpeg');
+    background-size: cover; 
+    background-position: right;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+header p{
+    max-width: 650px;
+}
+header h1{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.btn{
+    background-color: var(--theme-color);
+    padding: 10px 20px 10px 20px;
+    font-size: large;
+    margin: 10px;
+    cursor: pointer;
+    transition-duration: .5s;
+    text-decoration: none;
+}
+.btn:hover{
+    letter-spacing: 3px;
+}
+.about-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    margin: 30px;
+    background: rgb(37, 37, 37);
+    overflow: hidden;
+}
+.about-section div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 25px;
+}
+.about-section img{
+    width: 100%;
+}
+.about{
+    font-size: 45px;
+    margin: 20px;
+    text-align: center;
+}
+.menu-items div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding:25px;
+    border: 1px solid white;
+}
+
+.menu-items div:hover{
+    background-color: rgb(73, 73, 73);
+    color: black;
+}
+.now-dollar{
+    font-size: 30px;
+}
+.previous-dollar{
+    text-decoration: line-through;
+}
+
+.review div{
+    border: 1px solid white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.review div h1{
+    font-size: 20px;
+}
+.review img{
+    border-radius: 100%;
+    padding: 20px;
+}
+.fa.fa-quote-left{
+    color: orangered;
+    font-size: 60px;
+}
+.email-field{
+    background-color: black;
+    display: flex;
+    width: 70%;
+}
+.email-field input{
+    width: 100%;
+    background-color: transparent;
+}
+.email-field input:focus{
+    outline: 0;
+}
+.email-field i{
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.blogs{
+    padding: 30px;
+    place-items: center;
+    align-items: center;
+}
+.blogs div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blogs h1{
+    font-size: 35px; 
+}
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-links a{
+    padding: 5px;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+}
+.footer-links a:hover{
+    background-color: var(--theme-color);
+    color: white
+}

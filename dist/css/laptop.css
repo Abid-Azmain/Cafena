@@ -1,0 +1,11 @@
+@media (min-width:991px){
+    .about-section{
+        display: flex;
+        flex-direction: row;
+    }
+    .about-section img{
+        height: 100%;
+        width: 50%;
+    }
+    
+}
